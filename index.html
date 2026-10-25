@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Questionnaire de satisfaction</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <div id="testBanner" class="test-banner"></div>
+  <header class="top hidden" id="top">
+    <img id="topLogo" alt="">
+    <span class="sp"></span>
+    <button class="pill" id="helpBtn" aria-label="Numéros d’urgence"></button>
+    <button class="roundbtn" id="soundBtn" aria-label="Voix"></button>
+  </header>
+  <div class="progress hidden" id="progress"><div></div></div>
+  <main id="screen"></main>
+</div>
+<script src="identite.js"></script>
+<script src="logo-data.js"></script>
+<script src="questions.js"></script>
+<script src="vendor/pdf-lib.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
